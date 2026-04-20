@@ -1,0 +1,45 @@
+>>>>>linux basics commands hands-on
+
+A) FILE OPERATIONS:
+
+## ls
+show all files and directories 
+## pwd
+show location
+## cd 
+change directory
+## mkdir 
+make directory
+## rm -r 
+delete directory
+## touch
+make file
+## rm
+delete file
+## clear
+for clean terminal
+________________________
+
+B) FILE VIEWING & EDITING:
+
+## cat
+## nano 
+## head 
+## tail
+________________________
+
+C) PERMISSIONS:
+
+## ls -l
+## chmod 777 file.txt
+## chmod +X script.sh
+________________________
+
+D) SYSTEM INFO:
+
+## whoami
+## uname -a
+## top
+## df -h
+________________________
+
