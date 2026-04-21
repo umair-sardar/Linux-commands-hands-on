@@ -1,0 +1,103 @@
+1. Navigation (folders move karna)
+pwd → current directory
+ls → list files
+ls -la → hidden + details
+cd foldername → folder open
+cd .. → back
+cd ~ → home
+
+
+2. File & Directory Management
+touch file.txt → file create
+mkdir folder → folder create
+rm file.txt → delete file
+rm -r folder → delete folder
+cp file1 file2 → copy
+mv old new → rename/move
+
+
+3. File Viewing / Editing
+cat file.txt → show content
+less file.txt → scroll view
+head file.txt → top lines
+tail file.txt → last lines
+nano file.txt → edit simple
+vim file.txt → advanced editor
+
+
+4. Permissions & Ownership
+chmod +x file.sh → permission change
+chmod 777 file → full access
+chown user:file file.txt → owner change
+
+
+5. User Management
+whoami → current user
+id → user info
+adduser username
+passwd username
+su username
+sudo command
+
+
+6. Process Management
+ps → running processes
+top → live processes
+htop → better UI (install first)
+kill PID
+kill -9 PID
+
+
+7. Networking
+ip a → IP address
+ping google.com
+netstat -tuln
+ss -tuln
+curl url
+wget url
+
+
+8. Package Management (Ubuntu/Debian)
+sudo apt update
+sudo apt upgrade
+sudo apt install package
+sudo apt remove package
+
+
+9. Disk & Storage
+df -h → disk usage
+du -h → folder size
+lsblk → disks
+mount
+umount
+
+
+10. Archive & Compression
+tar -cvf file.tar folder
+tar -xvf file.tar
+zip file.zip file
+unzip file.zip
+
+
+11. Search & Text Processing
+find / -name file.txt
+grep "word" file.txt
+sort file.txt
+uniq file.txt
+wc -l file.txt
+
+
+12. System Info
+uname -a
+hostname
+uptime
+free -h
+top
+
+
+13. Shortcuts
+clear → screen clean
+history → commands history
+!! → last command run
+ctrl + c → stop
+ctrl + z → pause
